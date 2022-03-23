@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My calculator</title>
+    <link rel="stylesheet" href="css/mycss.css">
+    
+</head>
+<body>
+    <h1 class="headline">My calculator</h1>
+
+    <div class="calculator">
+        <div class="calculator_display">
+            <input type="text" name="screen" id="screen">
+        </div>
+        
+        <div class="calculator_buttons">
+            <button class="number_key">7</button>
+            <button class="number_key">8</button>
+            <button class="number_key">9</button>
+            <button class="calculator_operator pressed" data-action="add">+</button>
+            <button class="number_key">4</button>
+            <button class="number_key">5</button>
+            <button class="number_key">6</button>
+            <button class="calculator_operator pressed" data-action="subtract">-</button>
+            <button class="number_key">1</button>
+            <button class="number_key">2</button>
+            <button class="number_key">3</button>
+            <button class="calculator_operator pressed" data-action="multiply">X</button>
+            <button class="number_key">0</button>
+            <button class="calculator_operator pressed" data-action="divide">(</button>
+            <button class="calculator_operator pressed" data-action="divide">)</button>
+            <button class="calculator_operator pressed" data-action="divide">/</button>
+            <button class="decimal pressed" data-action="decimal">.</button>
+            <button class="calculator_operator pressed" data-action="divide">%</button>
+            <button class="clear pressed_red" data-action="clear">C</button>
+            <button class="equal_to pressed_green" data-action="result">=</button>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Alert : Clear screen after clicking "=".</p>
+        <h4 class="footer_text">Made by Soumyadeep Sinha. ☺️</h4>
+    </div>
+    
+</body>
+<script src="scripts/index.js"></script>
+</html>
