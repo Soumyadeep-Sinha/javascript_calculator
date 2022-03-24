@@ -58,7 +58,8 @@ h1{
     position: relative;
     border: 3px solid black;
     font-size: 30px;
-    font-family: cursive;
+    font-family: sans-serif;
+    font-weight: bold;
     border-radius: 10px;
 }
 .pressed{
